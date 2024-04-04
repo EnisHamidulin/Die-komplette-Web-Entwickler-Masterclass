@@ -11,3 +11,7 @@ B
 docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+F
+Changelog/CHANGELOG.md,8\a\8afce04e84774e49dcb779bdc59adef4bd16a6c6
