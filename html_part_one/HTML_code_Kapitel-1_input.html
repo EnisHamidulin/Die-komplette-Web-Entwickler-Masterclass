@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulare</title>
+</head>
+<body>
+<h2>Fomulare</h2>
+<form action="/login.php">
+    Benutzername: <br>
+    <label>
+        <input type="text" name="username" value="Frank the Tank">
+    </label></form>
+        Passwort: <br>
+<form>
+
+    <label>
+        <input type="password" name="password">
+    </label></form>
+<br>
+<input type="submit" value="Einloggen">
+<form><label>
+    <fieldset > <input checked type="radio" name="geschlecht" value="männlich" >Männlich
+        <input type="radio" name="geschlecht" value="weiblich" >Weiblich
+        <input type="radio" name="geschlecht" value="divers" >Divers</fieldset>
+
+   <h3>Weitere Input Typen</h3>
+    <fieldset > <input checked type="checkbox" name="Salamie" value="salamie" >Salamie
+        <input type="checkbox" name="sucuk" value="sucuk" >Sucuk
+        <input type="checkbox" name="jamon" value="jamon" >jamon</fieldset>
+
+
+
+</label>
+</form>
+<form >
+    Email:
+    <label>
+        <input type="Email" name="email" minlength="8" maxlength="20" size="40" autocomplete="off" placeholder="Deine Email Adresse ">
+    </label>
+</form>
+<form >
+    Color:
+    <label>
+        <input type="color" name="color">
+    </label>
+</form>
+<form >
+    Datum:
+    <label>
+        <input type="date" name="date">
+    </label>
+</form>
+<form >
+    Datei:
+    <label>
+        <input type="file" name="my fle">
+    </label>
+</form><form >
+    Zahl:
+    <label>
+        <input type="number" name="anzahl" min="1" max="5">
+    </label>
+</form>
+</body>
+</html>
